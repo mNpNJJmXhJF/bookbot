@@ -1,6 +1,6 @@
 from collections import Counter
 import string
-with open("books/frankenstion.txt") as f:
+with open("frankenstion.txt") as f:
     stuff = f.read()
     words = stuff.lower()
     print(Counter(words))
